@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <!--F O N T S-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <main>
+      <article>
+        <div class="user-container">
+          <div class="user">
+            <img src="images/image-jeremy.png" alt="jeremy" />
+            <div class="user-txt">
+              <p>Report for</p>
+              <h1>Jeremy Robson</h1>
+            </div>
+          </div>
+          <div class="list-container">
+            <ul>
+              <li><span id="daily" class="daily list-btn">Daily</span></li>
+              <li><span id="weekly" class="weekly list-btn">Weekly</span></li>
+              <li><span id="monthly" class="monthly list-btn">Monthly</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="activity">
+          <div class="bg bg-work">
+            <img src="images/icon-work.svg" alt="work" />
+          </div>
+          <div class="activity-container">
+            <div class="activity-header">
+              <p>Work</p>
+              <div class="ellipsis">
+                <img src="images/icon-ellipsis.svg" alt="ellipsis" />
+              </div>
+            </div>
+            <div class="counter">
+              <h2 class="hours">-hrs</h2>
+              <!-- daily -->
+              <div>
+                <span class="time-txt">Previous</span> -
+                <span class="prevHours" id="hrs-work">-hrs</span>
+              </div>
+              <!-- daily -->
+            </div>
+          </div>
+        </div>
+        <div class="activity">
+          <div class="bg bg-play">
+            <img src="images/icon-play.svg" alt="play" />
+          </div>
+          <div class="activity-container">
+            <div class="activity-header">
+              <p>Play</p>
+              <div class="ellipsis">
+                <img src="images/icon-ellipsis.svg" alt="ellipsis" />
+              </div>
+            </div>
+            <div class="counter">
+              <h2 class="hours">-hr</h2>
+              <!-- daily -->
+              <div>
+                <span class="time-txt">Previous</span> -
+                <span class="prevHours" id="hrs-play">-hrs</span>
+              </div>
+              <!-- daily -->
+            </div>
+          </div>
+        </div>
+        <div class="activity">
+          <div class="bg bg-study">
+            <img src="images/icon-study.svg" alt="study" />
+          </div>
+          <div class="activity-container">
+            <div class="activity-header">
+              <p>Study</p>
+              <div class="ellipsis">
+                <img src="images/icon-ellipsis.svg" alt="ellipsis" />
+              </div>
+            </div>
+            <div class="counter">
+              <h2 class="hours">-hrs</h2>
+              <!-- daily -->
+              <div>
+                <span class="time-txt">Previous</span> -
+                <span class="prevHours" id="hrs-study">-hrs</span>
+              </div>
+              <!-- daily -->
+            </div>
+          </div>
+        </div>
+        <div class="activity">
+          <div class="bg bg-exercise">
+            <img src="images/icon-exercise.svg" alt="exercise" />
+          </div>
+          <div class="activity-container">
+            <div class="activity-header">
+              <p>Exercise</p>
+              <div class="ellipsis">
+                <img src="images/icon-ellipsis.svg" alt="ellipsis" />
+              </div>
+            </div>
+            <div class="counter">
+              <h2 class="hours">-hr</h2>
+              <!-- daily -->
+              <div>
+                <span class="time-txt">Previous</span> -
+                <span class="prevHours" id="hrs-exercise">-hrs</span>
+              </div>
+              <!-- daily -->
+            </div>
+          </div>
+        </div>
+        <div class="activity">
+          <div class="bg bg-social">
+            <img src="images/icon-social.svg" alt="social" />
+          </div>
+          <div class="activity-container">
+            <div class="activity-header">
+              <p>Social</p>
+              <div class="ellipsis">
+                <img src="images/icon-ellipsis.svg" alt="ellipsis" />
+              </div>
+            </div>
+            <div class="counter">
+              <h2 class="hours">-hr</h2>
+              <!-- daily -->
+              <div>
+                <span class="time-txt">Previous</span> -
+                <span class="prevHours" id="hrs-social">-hrs</span>
+              </div>
+              <!-- daily -->
+            </div>
+          </div>
+        </div>
+        <div class="activity">
+          <div class="bg bg-self-care">
+            <img src="images/icon-self-care.svg" alt="self-care" />
+          </div>
+          <div class="activity-container">
+            <div class="activity-header">
+              <p>Self Care</p>
+              <div class="ellipsis">
+                <img src="images/icon-ellipsis.svg" alt="ellipsis" />
+              </div>
+            </div>
+            <div class="counter">
+              <h2 class="hours">-hrs</h2>
+              <!-- daily -->
+              <div>
+                <span class="time-txt">Previous</span> -
+                <span class="prevHours" id="hrs-self-care">-hr</span>
+              </div>
+              <!-- daily -->
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
